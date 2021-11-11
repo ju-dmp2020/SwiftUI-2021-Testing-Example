@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F77D7B7273D08190079B77C /* DMP_GradingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77D7B6273D08190079B77C /* DMP_GradingApp.swift */; };
+		6F77D7B9273D08190079B77C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77D7B8273D08190079B77C /* ContentView.swift */; };
+		6F77D7BB273D081A0079B77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F77D7BA273D081A0079B77C /* Assets.xcassets */; };
+		6F77D7BE273D081A0079B77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F77D7BD273D081A0079B77C /* Preview Assets.xcassets */; };
+		6F77D7C8273D081A0079B77C /* DMP_GradingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77D7C7273D081A0079B77C /* DMP_GradingTests.swift */; };
+		6F77D7D2273D081A0079B77C /* DMP_GradingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77D7D1273D081A0079B77C /* DMP_GradingUITests.swift */; };
+		6F77D7D4273D081A0079B77C /* DMP_GradingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F77D7D3273D081A0079B77C /* DMP_GradingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F77D7C4273D081A0079B77C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F77D7AB273D08190079B77C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F77D7B2273D08190079B77C;
+			remoteInfo = "DMP Grading";
+		};
+		6F77D7CE273D081A0079B77C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F77D7AB273D08190079B77C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F77D7B2273D08190079B77C;
+			remoteInfo = "DMP Grading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F77D7B3273D08190079B77C /* DMP Grading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMP Grading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F77D7B6273D08190079B77C /* DMP_GradingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMP_GradingApp.swift; sourceTree = "<group>"; };
+		6F77D7B8273D08190079B77C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F77D7BA273D081A0079B77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F77D7BD273D081A0079B77C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F77D7C3273D081A0079B77C /* DMP GradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMP GradingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F77D7C7273D081A0079B77C /* DMP_GradingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMP_GradingTests.swift; sourceTree = "<group>"; };
+		6F77D7CD273D081A0079B77C /* DMP GradingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DMP GradingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F77D7D1273D081A0079B77C /* DMP_GradingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMP_GradingUITests.swift; sourceTree = "<group>"; };
+		6F77D7D3273D081A0079B77C /* DMP_GradingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMP_GradingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F77D7B0273D08190079B77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7C0273D081A0079B77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7CA273D081A0079B77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F77D7AA273D08190079B77C = {
+			isa = PBXGroup;
+			children = (
+				6F77D7B5273D08190079B77C /* DMP Grading */,
+				6F77D7C6273D081A0079B77C /* DMP GradingTests */,
+				6F77D7D0273D081A0079B77C /* DMP GradingUITests */,
+				6F77D7B4273D08190079B77C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F77D7B4273D08190079B77C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F77D7B3273D08190079B77C /* DMP Grading.app */,
+				6F77D7C3273D081A0079B77C /* DMP GradingTests.xctest */,
+				6F77D7CD273D081A0079B77C /* DMP GradingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F77D7B5273D08190079B77C /* DMP Grading */ = {
+			isa = PBXGroup;
+			children = (
+				6F77D7B6273D08190079B77C /* DMP_GradingApp.swift */,
+				6F77D7B8273D08190079B77C /* ContentView.swift */,
+				6F77D7BA273D081A0079B77C /* Assets.xcassets */,
+				6F77D7BC273D081A0079B77C /* Preview Content */,
+			);
+			path = "DMP Grading";
+			sourceTree = "<group>";
+		};
+		6F77D7BC273D081A0079B77C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F77D7BD273D081A0079B77C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F77D7C6273D081A0079B77C /* DMP GradingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F77D7C7273D081A0079B77C /* DMP_GradingTests.swift */,
+			);
+			path = "DMP GradingTests";
+			sourceTree = "<group>";
+		};
+		6F77D7D0273D081A0079B77C /* DMP GradingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F77D7D1273D081A0079B77C /* DMP_GradingUITests.swift */,
+				6F77D7D3273D081A0079B77C /* DMP_GradingUITestsLaunchTests.swift */,
+			);
+			path = "DMP GradingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F77D7B2273D08190079B77C /* DMP Grading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F77D7D7273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP Grading" */;
+			buildPhases = (
+				6F77D7AF273D08190079B77C /* Sources */,
+				6F77D7B0273D08190079B77C /* Frameworks */,
+				6F77D7B1273D08190079B77C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMP Grading";
+			productName = "DMP Grading";
+			productReference = 6F77D7B3273D08190079B77C /* DMP Grading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F77D7C2273D081A0079B77C /* DMP GradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F77D7DA273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP GradingTests" */;
+			buildPhases = (
+				6F77D7BF273D081A0079B77C /* Sources */,
+				6F77D7C0273D081A0079B77C /* Frameworks */,
+				6F77D7C1273D081A0079B77C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F77D7C5273D081A0079B77C /* PBXTargetDependency */,
+			);
+			name = "DMP GradingTests";
+			productName = "DMP GradingTests";
+			productReference = 6F77D7C3273D081A0079B77C /* DMP GradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F77D7CC273D081A0079B77C /* DMP GradingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F77D7DD273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP GradingUITests" */;
+			buildPhases = (
+				6F77D7C9273D081A0079B77C /* Sources */,
+				6F77D7CA273D081A0079B77C /* Frameworks */,
+				6F77D7CB273D081A0079B77C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F77D7CF273D081A0079B77C /* PBXTargetDependency */,
+			);
+			name = "DMP GradingUITests";
+			productName = "DMP GradingUITests";
+			productReference = 6F77D7CD273D081A0079B77C /* DMP GradingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F77D7AB273D08190079B77C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6F77D7B2273D08190079B77C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6F77D7C2273D081A0079B77C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F77D7B2273D08190079B77C;
+					};
+					6F77D7CC273D081A0079B77C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6F77D7B2273D08190079B77C;
+					};
+				};
+			};
+			buildConfigurationList = 6F77D7AE273D08190079B77C /* Build configuration list for PBXProject "DMP Grading" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F77D7AA273D08190079B77C;
+			productRefGroup = 6F77D7B4273D08190079B77C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F77D7B2273D08190079B77C /* DMP Grading */,
+				6F77D7C2273D081A0079B77C /* DMP GradingTests */,
+				6F77D7CC273D081A0079B77C /* DMP GradingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F77D7B1273D08190079B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F77D7BE273D081A0079B77C /* Preview Assets.xcassets in Resources */,
+				6F77D7BB273D081A0079B77C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7C1273D081A0079B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7CB273D081A0079B77C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F77D7AF273D08190079B77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F77D7B9273D08190079B77C /* ContentView.swift in Sources */,
+				6F77D7B7273D08190079B77C /* DMP_GradingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7BF273D081A0079B77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F77D7C8273D081A0079B77C /* DMP_GradingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F77D7C9273D081A0079B77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F77D7D2273D081A0079B77C /* DMP_GradingUITests.swift in Sources */,
+				6F77D7D4273D081A0079B77C /* DMP_GradingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F77D7C5273D081A0079B77C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F77D7B2273D08190079B77C /* DMP Grading */;
+			targetProxy = 6F77D7C4273D081A0079B77C /* PBXContainerItemProxy */;
+		};
+		6F77D7CF273D081A0079B77C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F77D7B2273D08190079B77C /* DMP Grading */;
+			targetProxy = 6F77D7CE273D081A0079B77C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F77D7D5273D081A0079B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F77D7D6273D081A0079B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F77D7D8273D081A0079B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DMP Grading/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-Grading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F77D7D9273D081A0079B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DMP Grading/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-Grading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F77D7DB273D081A0079B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-GradingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMP Grading.app/DMP Grading";
+			};
+			name = Debug;
+		};
+		6F77D7DC273D081A0079B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-GradingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DMP Grading.app/DMP Grading";
+			};
+			name = Release;
+		};
+		6F77D7DE273D081A0079B77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-GradingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DMP Grading";
+			};
+			name = Debug;
+		};
+		6F77D7DF273D081A0079B77C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.garrit.demo.DMP-GradingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DMP Grading";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F77D7AE273D08190079B77C /* Build configuration list for PBXProject "DMP Grading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F77D7D5273D081A0079B77C /* Debug */,
+				6F77D7D6273D081A0079B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F77D7D7273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP Grading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F77D7D8273D081A0079B77C /* Debug */,
+				6F77D7D9273D081A0079B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F77D7DA273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP GradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F77D7DB273D081A0079B77C /* Debug */,
+				6F77D7DC273D081A0079B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F77D7DD273D081A0079B77C /* Build configuration list for PBXNativeTarget "DMP GradingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F77D7DE273D081A0079B77C /* Debug */,
+				6F77D7DF273D081A0079B77C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F77D7AB273D08190079B77C /* Project object */;
+}
